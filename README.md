@@ -93,6 +93,6 @@ This repository is starter template of [Three.js](https://threejs.org/) + [GLTFL
   - [spine-ts/spine-threejs/example](https://github.com/EsotericSoftware/spine-runtimes/tree/4.2/spine-ts/spine-threejs/example)
   - [spine-ts/spine-threejs/example/index.html](https://github.com/EsotericSoftware/spine-runtimes/blob/4.2/spine-ts/spine-threejs/example/index.html)
 - GLTFLoader | Three.js
-  - [GLTFLoader](https://threejs.org/docs/#examples/en/loaders/GLTFLoader) +
+  - [GLTFLoader](https://threejs.org/docs/#examples/en/loaders/GLTFLoader)
 - Spine
   - [Spine](https://esotericsoftware.com/)
