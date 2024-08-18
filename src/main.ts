@@ -205,12 +205,6 @@ const ticker = () => {
         0
       )
       spineSkeletonMesh.position.set(0, 5 * -0.5, 0)
-
-      // https://ja.esotericsoftware.com/forum/d/26699-threejs-%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6-skeletonmesh-%E3%81%AB%E5%85%89%E3%81%A8%E5%BD%B1%E3%82%92%E9%81%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84
-      // TODO: spine skeleton に光を当てたい
-      // TODO: spine skeleton の影を落としたい
-      // TODO: 他の 3D オブジェクトの影を spine skeleton に落としたい
-
       spineSkeletonMesh.state.setAnimation(0, 'animation', true)
       spineWrapperMesh.add(spineSkeletonMesh)
     }
@@ -223,7 +217,7 @@ const ticker = () => {
   box.rotation.z += 0.01
 
   // Spine Skeleton　更新
-  // ※Spine の SkeletonMesh は update() を呼び出さないとアニメーションが再生されない
+  // Spine の SkeletonMesh は update() を呼び出さないとアニメーションが更新されないので注意
   if (spineSkeletonMesh) {
     spineSkeletonMesh.update(delta)
   }
